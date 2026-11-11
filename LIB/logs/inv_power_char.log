@@ -1,0 +1,518 @@
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  0.00000e+00 Reference value :  2.10342e-09 Reference value :  4.28142e-09 Reference value :  6.49242e-09
+No. of Data Rows : 16014
+p_static_0          =  3.30460e-12 from=  1.00000e-09 to=  8.00000e-09
+p_static_1          =  1.08613e-10 from=  1.00000e-09 to=  8.00000e-09
+p_static_0_nw = 3.304605e-03
+p_static_1_nw = 1.086133e-01
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  6.30640e-10 Reference value :  2.40492e-09 Reference value :  4.18592e-09 Reference value :  5.95492e-09 Reference value :  7.71692e-09
+No. of Data Rows : 16014
+p0                  =  3.30460e-12 from=  0.00000e+00 to=  8.00000e-09
+p1                  =  1.08613e-10 from=  0.00000e+00 to=  8.00000e-09
+e_rise              =  8.56861e-15 from=  0.00000e+00 to=  8.00000e-09
+e_fall              =  -1.33925e-15 from=  0.00000e+00 to=  8.00000e-09
+p_rise_nw = 1.071047e+03
+p_fall_nw = -1.67489e+02
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  2.87292e-09 Reference value :  6.74642e-09
+No. of Data Rows : 16014
+p0                  =  3.30460e-12 from=  0.00000e+00 to=  8.00000e-09
+p1                  =  1.08613e-10 from=  0.00000e+00 to=  8.00000e-09
+e_rise              =  3.97305e-14 from=  0.00000e+00 to=  8.00000e-09
+e_fall              =  -8.59795e-16 from=  0.00000e+00 to=  8.00000e-09
+p_rise_nw = 4.966287e+03
+p_fall_nw = -1.07557e+02
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  8.70140e-10 Reference value :  2.62142e-09 Reference value :  5.91592e-09
+No. of Data Rows : 16014
+p0                  =  3.30456e-12 from=  0.00000e+00 to=  8.00000e-09
+p1                  =  1.08613e-10 from=  0.00000e+00 to=  8.00000e-09
+e_rise              =  3.31411e-13 from=  0.00000e+00 to=  8.00000e-09
+e_fall              =  -7.55634e-16 from=  0.00000e+00 to=  8.00000e-09
+p_rise_nw = 4.142633e+04
+p_fall_nw = -9.45364e+01
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  9.40140e-10 Reference value :  4.84642e-09
+No. of Data Rows : 16014
+p0                  =  3.30460e-12 from=  0.00000e+00 to=  8.00000e-09
+p1                  =  1.08613e-10 from=  0.00000e+00 to=  8.00000e-09
+e_rise              =  8.45163e-15 from=  0.00000e+00 to=  8.00000e-09
+e_fall              =  -1.92686e-15 from=  0.00000e+00 to=  8.00000e-09
+p_rise_nw = 1.056423e+03
+p_fall_nw = -2.40939e+02
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  1.64000e-12 Reference value :  2.92492e-09 Reference value :  6.70192e-09
+No. of Data Rows : 16014
+p0                  =  3.30460e-12 from=  0.00000e+00 to=  8.00000e-09
+p1                  =  1.08613e-10 from=  0.00000e+00 to=  8.00000e-09
+e_rise              =  3.93990e-14 from=  0.00000e+00 to=  8.00000e-09
+e_fall              =  -1.42811e-15 from=  0.00000e+00 to=  8.00000e-09
+p_rise_nw = 4.924844e+03
+p_fall_nw = -1.78595e+02
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  8.94640e-10 Reference value :  4.80692e-09
+No. of Data Rows : 16014
+p0                  =  3.30460e-12 from=  0.00000e+00 to=  8.00000e-09
+p1                  =  1.08613e-10 from=  0.00000e+00 to=  8.00000e-09
+e_rise              =  3.31337e-13 from=  0.00000e+00 to=  8.00000e-09
+e_fall              =  -8.61517e-16 from=  0.00000e+00 to=  8.00000e-09
+p_rise_nw = 4.141711e+04
+p_fall_nw = -1.07771e+02
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  0.00000e+00 Reference value :  2.67625e-09 Reference value :  6.57892e-09
+No. of Data Rows : 16014
+p0                  =  3.30456e-12 from=  0.00000e+00 to=  8.00000e-09
+p1                  =  1.08613e-10 from=  0.00000e+00 to=  8.00000e-09
+e_rise              =  1.28792e-14 from=  0.00000e+00 to=  8.00000e-09
+e_fall              =  1.82518e-15 from=  0.00000e+00 to=  8.00000e-09
+p_rise_nw = 1.609856e+03
+p_fall_nw = 2.280759e+02
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  7.52140e-10 Reference value :  4.55892e-09
+No. of Data Rows : 16014
+p0                  =  3.30456e-12 from=  0.00000e+00 to=  8.00000e-09
+p1                  =  1.08613e-10 from=  0.00000e+00 to=  8.00000e-09
+e_rise              =  4.19196e-14 from=  0.00000e+00 to=  8.00000e-09
+e_fall              =  -2.19411e-16 from=  0.00000e+00 to=  8.00000e-09
+p_rise_nw = 5.239906e+03
+p_fall_nw = -2.74977e+01
+Reset re-loads circuit * post-layout inverter static and dynamic power characterization
+
+Circuit: * post-layout inverter static and dynamic power characterization
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd0                                       1.8
+in0                                          0
+out0                                       1.8
+pstatic0                           3.30456e-12
+vdd1                                       1.8
+in1                                        1.8
+out1                               1.12952e-07
+pstatic1                           1.08613e-10
+vdd_rise                                   1.8
+in_rise                                    1.8
+out_rise                           1.12952e-07
+prise                              1.08613e-10
+vdd_fall                                   1.8
+in_fall                                      0
+out_fall                                   1.8
+pfall                              3.30457e-12
+bpfall#branch                                0
+vddfall#branch                    -1.83587e-12
+bprise#branch                                0
+vddrise#branch                    -6.03407e-11
+bpstatic1#branch                             0
+vdd1#branch                       -6.03407e-11
+bpstatic0#branch                             0
+vdd0#branch                       -1.83586e-12
+vfall#branch                                 0
+vrise#branch                                 0
+vin1#branch                                  0
+vin0#branch                                  0
+
+ Reference value :  0.00000e+00 Reference value :  3.59475e-09 Reference value :  7.50042e-09
+No. of Data Rows : 16014
+p0                  =  3.30456e-12 from=  0.00000e+00 to=  8.00000e-09
+p1                  =  1.08613e-10 from=  0.00000e+00 to=  8.00000e-09
+e_rise              =  3.31776e-13 from=  0.00000e+00 to=  8.00000e-09
+e_fall              =  -1.01202e-15 from=  0.00000e+00 to=  8.00000e-09
+p_rise_nw = 4.147197e+04
+p_fall_nw = -1.26574e+02
+ngspice-47 done

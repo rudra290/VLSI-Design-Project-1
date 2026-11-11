@@ -1,0 +1,90 @@
+magic
+tech sky130A
+timestamp 1789974638
+<< nwell >>
+rect 141 132 142 294
+rect 1128 132 1168 229
+rect 1309 144 1346 282
+<< locali >>
+rect 1122 249 1151 253
+rect 1122 232 1128 249
+rect 1145 232 1151 249
+rect 1122 135 1151 232
+rect 1304 249 1329 252
+rect 1304 232 1306 249
+rect 1323 232 1329 249
+rect 1304 191 1329 232
+rect 1304 167 1346 191
+rect 0 108 6 135
+rect 141 108 142 135
+rect 1128 108 1151 135
+rect 2332 114 2349 135
+rect 2332 108 2383 114
+rect 2760 108 2793 135
+<< viali >>
+rect 1128 232 1145 249
+rect 1306 232 1323 249
+rect 1177 113 1194 130
+rect 1267 66 1284 83
+<< metal1 >>
+rect 0 272 7 320
+rect 141 272 142 320
+rect 1128 272 1168 320
+rect 1309 272 1346 320
+rect 2332 272 2349 320
+rect 1122 252 1151 253
+rect 1122 249 1329 252
+rect 1122 232 1128 249
+rect 1145 232 1306 249
+rect 1323 232 1329 249
+rect 1122 229 1329 232
+rect 1346 210 1368 233
+rect 477 185 1368 210
+rect 1169 179 1368 185
+rect 1169 130 1200 179
+rect 1169 113 1177 130
+rect 1194 113 1200 130
+rect 440 87 468 110
+rect 1169 108 1200 113
+rect 1383 87 1407 101
+rect 440 83 1407 87
+rect 440 66 1267 83
+rect 1284 66 1407 83
+rect 440 62 1407 66
+rect 0 0 7 48
+rect 141 0 142 48
+rect 1128 0 1168 48
+rect 1309 0 1346 48
+rect 2332 0 2349 48
+use Inverter_X1  Inverter_X1_0
+timestamp 1789973293
+transform 1 0 48 0 1 48
+box -48 -48 93 272
+use Inverter_X1  Inverter_X1_1
+timestamp 1789973293
+transform 1 0 1216 0 1 48
+box -48 -48 93 272
+use Inverter_X2  Inverter_X2_0
+timestamp 1789973525
+transform 1 0 2393 0 1 87
+box -44 -87 400 233
+use latch  latch_0
+timestamp 1789974638
+transform 1 0 142 0 1 0
+box 0 0 986 320
+use latch  latch_1
+timestamp 1789974638
+transform 1 0 1346 0 1 0
+box 0 0 986 320
+<< labels >>
+flabel locali 0 108 6 135 7 FreeSans 400 0 0 0 D
+port 1 w
+flabel metal1 0 272 7 320 7 FreeSans 400 0 0 0 vdd
+port 3 w
+flabel metal1 0 0 7 48 7 FreeSans 400 0 0 0 vss
+port 4 w
+flabel locali 2760 108 2793 135 3 FreeSans 400 0 0 0 Q
+port 5 e
+flabel viali 1177 113 1194 130 1 FreeSans 400 0 0 0 CLK
+port 2 n
+<< end >>

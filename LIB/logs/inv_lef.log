@@ -1,0 +1,31 @@
+
+Magic 8.3 revision 681 - Compiled on Tue Aug 25 11:50:23 AM CEST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "Layout/invX1" from command line.
+File <Layout/invX1.mag> is already locked by pid 13944.  Opening read-only.
+Cell invX1 read from path Layout
+Using technology "sky130A", version 1.0.588-56-g026824c
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.010 x 0.010   ( 0.000,  0.000), ( 0.010,  0.010)  0.000     
+lambda:     1.00 x 1.00    (  0.00,  0.00 ), (  1.00,  1.00 )  1.00      
+internal:      2 x 2       (     0,  0    ), (     2,  2    )  4         
+Generating LEF output LEF/inv.lef for cell inv:
+Diagnostic:  Writing LEF output for cell inv
+Diagnostic:  Scale value is 0.005000

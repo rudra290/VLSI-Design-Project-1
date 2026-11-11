@@ -1,0 +1,33 @@
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: * post-layout inverter input capacitance
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+out_rise                                   1.8
+in_rise                                      0
+out_fall                           1.12952e-07
+in_fall                                    1.8
+vdd#branch                        -6.49766e-11
+
+ Reference value :  0.00000e+00 Reference value :  3.15325e-09
+No. of Data Rows : 10220
+rise_dt             =  2.83091e-09 targ=  4.67809e-09 trig=  1.84718e-09
+fall_dt             =  2.82898e-09 targ=  4.47432e-09 trig=  1.64534e-09
+cap_rise_ff = 2.621214e+00
+cap_fall_ff = 2.619421e+00
+cap_avg_ff = 2.620318e+00
+ngspice-47 done
