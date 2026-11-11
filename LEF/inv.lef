@@ -1,5 +1,5 @@
 MACRO inv
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN inv ;
   ORIGIN 0.000 0.000 ;
   SIZE 1.670 BY 3.200 ;
