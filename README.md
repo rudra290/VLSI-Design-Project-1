@@ -1,4 +1,4 @@
-# Gujju-Gang-CP1
+# VLSI Design Project 1
 
 Hello everyone, this is the private repository for our project.
 As suggested, we have to complete this project collaboratively. I have made a repo for collaborative and convenient work. Keep in mind that this will be useful for placements.
